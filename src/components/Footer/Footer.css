@@ -1,0 +1,11 @@
+.house-footer p{
+    display: flex;
+    background-color: rgb(189, 189, 241);
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+} 

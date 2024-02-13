@@ -1,0 +1,33 @@
+.secound-section{
+    padding:50px 0 50px 0;
+    width: 100%;
+    display: flex;
+    }
+    
+.secound-section img{
+    padding-left: 40px;
+    width: 68%;
+    height: 50%;
+    position: static;
+    }
+    
+.secound-section .text{  
+    width: 100%;
+
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    }
+    
+.secound-section .text h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    }
+    
+.secound-section .text p {
+    display: flex;
+    padding: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    }

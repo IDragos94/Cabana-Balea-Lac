@@ -1,0 +1,13 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.text h1 {
+    display: flex;  
+}
+.text p {
+    display: flex;
+}
