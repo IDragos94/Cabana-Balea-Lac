@@ -1,19 +1,23 @@
 import Header from "./components/Header/Header";
 import HousePhoto from "./components/HousePhoto/HousePhoto";
 import FirstSection from "./components/FirstSection/FirstSection";
-import CardContent from "./components/CardContent/CardContent";
+import SVGContent from "./components/SVGContent/SVGContent";
+import PhotoSection from "./components/Photo/PhotoSection";
 import SecoundSection from "./components/SecoundSection/SecoundSection";
 import LastSection from "./components/LastSection/LastSection";
 import Footer from "./components/Footer/Footer";
+
 import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header Button={Button} />
       <HousePhoto />
       <FirstSection />
-      <CardContent />
+      <SVGContent />
+      <PhotoSection />
       <SecoundSection />
       <LastSection />
       <Footer />

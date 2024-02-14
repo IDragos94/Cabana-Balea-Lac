@@ -1,5 +1,3 @@
-import "./HousePhoto.css";
-
 function HousePhoto({ imageUrl, title }) {
   return (
     <div className="HousePhoto">

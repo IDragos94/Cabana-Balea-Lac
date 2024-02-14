@@ -1,4 +1,227 @@
 :root {
     --white: #ffffff;
     --nav-txt: #585858;
+    --button-background: #bcbcbc;
 }
+
+.header-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.header-text h1 {
+    margin: 0;
+}
+
+.nav-list{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-list button{
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3;
+    font-weight: 600;
+    font: bolder;
+    color: var(--nav-txt);
+    background-color: transparent;
+}
+
+.nav-list button:hover{
+   background-color: var(--button-background);
+   border-radius: 72px 72px 72px 72px;
+-moz-border-radius: 72px 72px 72px 72px;
+-webkit-border-radius: 72px 72px 72px 72px;
+border: 0px solid #000000;
+
+}
+
+.HousePhoto {
+    display: flex;
+    height: 75vh;
+    
+}
+  
+.HousePhoto img {
+    position: absolute;
+    width:100%;
+    height: 75vh;
+}
+
+.HousePhoto-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.HousePhoto h2 {
+    position: relative;
+    padding: 20px;
+    color: var(--white);
+    font-family: Raleway Flex,Raleway-Fallback,sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+}
+
+.HousePhoto h4 {
+    position: relative;
+    padding: 20px;
+    color: var(--white);
+    font-family: Raleway Flex,Raleway-Fallback,sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+}
+
+.first-section{
+    padding:50px 0 50px 0;
+    width: 100%;
+    display: flex;
+}
+    
+.first-section img{
+    padding-left: 50px;
+    position: relative;
+    width:40%; 
+}
+    
+.first-section .text{
+    margin-left: 40px;
+    width: 100%;
+    margin-right: 40px;
+}
+    
+.first-section .text h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+    
+.first-section .text p {
+    display: flex;
+    padding: 30px;
+    height: 30vh;
+    font-style: italic;
+}
+
+.svg {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.svg svg {
+    height: 50px;
+    width: 100px;
+}
+
+.figure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+}
+
+.figure-caption {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 100%;
+}
+
+.figure-caption .house {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.figure-caption .house .house-1{
+   text-align: left;
+   padding-right: 30px;
+}
+
+.figure-caption .house .house-1 h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.figure-caption .house .house-2 h3 {
+    text-align: center;
+}
+
+.figure-caption .house .house-2{
+    text-align: left;
+    padding-left: 30px;
+ }
+
+.secound-section{
+    padding:50px 0 50px 0;
+    width: 100%;
+    display: flex;
+}
+        
+.secound-section img{
+    padding-left: 40px;
+    width: 68%;
+    height: 50%;
+}
+        
+.secound-section-text{  
+    width: 100%;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+        
+.secound-section-text h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+        
+.secound-section-text p {
+    display: flex;
+    padding: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+    
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-left: 40px;   
+}
+        
+.text h1 {
+    display: flex;  
+}
+
+.text p {
+    display: flex;
+}
+
+.house-footer p{
+    display: flex;
+    background-color: rgb(189, 189, 241);
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+} 

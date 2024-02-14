@@ -1,5 +1,3 @@
-import "./LastSection.css";
-
 function LastSection({ imageUrl, title, text }) {
   return (
     <div className="text">

@@ -1,5 +1,3 @@
-import "./SecoundSection.css";
-
 function SecoundSection({ imageUrl, title, text }) {
   return (
     <div>
@@ -8,7 +6,7 @@ function SecoundSection({ imageUrl, title, text }) {
           src="https://d1di2lzuh97fh2.cloudfront.net/files/26/26y/450/26yyuq.png?ph=b3f82c55e1"
           alt="picture"
         ></img>
-        <div className="text">
+        <div className="secound-section-text">
           <h1>Referințe</h1>
           <p>
             Pentru noi, pot spune că a fost o surpriză plăcută mai ales că nu

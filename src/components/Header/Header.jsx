@@ -1,16 +1,27 @@
-import "./Header.css";
+import Button from "react-bootstrap/Button";
 
-function header({ title }) {
+function header({ title, Button }) {
   return (
-    <header className="header-text">
-      <h1>Cabana Bâlea Lac</h1>
-      <nav className="nav-list">
-        <ul>Pagina de start</ul>
-        <ul>Despre noi</ul>
-        <ul>Pret</ul>
-        <ul>Rezervari</ul>
-      </nav>
-    </header>
+    <>
+      <header className="header-text">
+        <h1>Cabana Bâlea Lac</h1>
+
+        <nav className="nav-list">
+          <ul href="https://balealac.ro/">
+            <Button>Acasa</Button>
+          </ul>
+          <ul href="#About us">
+            <Button>Despre noi</Button>
+          </ul>
+          <ul href="#Price">
+            <Button>Pret</Button>
+          </ul>
+          <ul href="#Rezervation">
+            <Button>Rezervari</Button>
+          </ul>
+        </nav>
+      </header>
+    </>
   );
 }
 

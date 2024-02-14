@@ -1,5 +1,3 @@
-import "./FirstSection.css";
-
 function FirstSection({ imageUrl, title, text }) {
   return (
     <div>
@@ -19,6 +17,17 @@ function FirstSection({ imageUrl, title, text }) {
             dotate cu mobilier din lemn, dușuri, toalete și televizoare, oferind
             o priveliste uluitoare atat asupra lacului Bâlea, care are o
             suprafață de 4,6 ha, cât și peste lanțurile muntoase din jur.
+          </p>
+          <p>
+            Pensiunea Balea Lac este punctul ideal pentru turistii care
+            intentioneaza sa ajunga pe Varful Negoiu (2535) sau pe Vf.
+            Moldoveanu (2544 m.) Cabana asigura comfort de trei stele, oferind
+            turistilor servicii complete, buna-dispozitie si o ambianta de
+            neuitat. La parterul noii constructii functioneaza receptia, grupul
+            alimentar, bucataria etc. Nivelul 1 si 2 sunt rezervate camerelor
+            care dispun de grupuri sanitare proprii, mobilier din lemn de
+            rasinoase si paltin si au perspective superbe asupra peisajelor
+            inconjuratoare. Animalele de companie au acces in pensiune.
           </p>
         </div>
       </div>
