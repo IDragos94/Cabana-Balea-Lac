@@ -1,12 +1,11 @@
-import './Footer.css';
+import "./Footer.css";
 
-function Footer () {
-return (
+function Footer() {
+  return (
     <footer className="house-footer">
-        <p>© 2024 Toate drepturile rezervate</p>
-
+      <p>© 2024 Toate drepturile rezervate</p>
     </footer>
-);
+  );
 }
 
 export default Footer;
