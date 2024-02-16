@@ -9,7 +9,7 @@ function SecoundSection({ imageUrl, title, text }) {
         <div className="secound-section-text">
           <h1>Referințe</h1>
           <p>
-            Pentru noi, pot spune că a fost o surpriză plăcută mai ales că nu
+            "Pentru noi, pot spune că a fost o surpriză plăcută mai ales că nu
             aveam mari așteptări fiind totuși o cabană la munte (și cu multe
             recenzii negative). Am fost cazați la sfârșit de septembrie, în
             timpul săptămânii, într-o cameră de 5 paturi deoarece am fost cu
@@ -25,7 +25,7 @@ function SecoundSection({ imageUrl, title, text }) {
             Cafeaua se făcea la un aparat care măcina pe loc boabele. M-a
             surprins că era ceapă verde, ridichi de lună, iaurt. Dimineața
             priveliștea din balcon a fost și mai frumoasă deoarece se oglindea
-            răsăritul soarelui din munte în lac.Dana Bratu
+            răsăritul soarelui din munte în lac."
           </p>
         </div>
       </div>

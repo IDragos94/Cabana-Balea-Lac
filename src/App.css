@@ -84,7 +84,6 @@ border: 0px solid #000000;
     margin: 0;
     font-size: 40px;
 }
-
 .first-section{
     padding:50px 0 50px 0;
     width: 100%;
@@ -94,13 +93,17 @@ border: 0px solid #000000;
 .first-section img{
     padding-left: 50px;
     position: relative;
-    width:40%; 
+    width:40%;
+    height: 40%;
+    flex-shrink: 0;
 }
     
 .first-section .text{
     margin-left: 40px;
     width: 100%;
     margin-right: 40px;
+    text-align: justify;
+    align-content: center;
 }
     
 .first-section .text h1 {
@@ -111,9 +114,10 @@ border: 0px solid #000000;
     
 .first-section .text p {
     display: flex;
-    padding: 30px;
-    height: 30vh;
+    margin:20px;
+    padding: 20px;
     font-style: italic;
+    font-weight: 500;
 }
 
 .svg {
@@ -165,7 +169,12 @@ border: 0px solid #000000;
 .figure-caption .house .house-2{
     text-align: left;
     padding-left: 30px;
- }
+}
+
+.house-3 {
+    text-align: center;
+    font-weight: 500;
+}
 
 .secound-section{
     padding:50px 0 50px 0;
@@ -175,7 +184,7 @@ border: 0px solid #000000;
         
 .secound-section img{
     padding-left: 40px;
-    width: 68%;
+    width: 30%;
     height: 50%;
 }
         
@@ -196,9 +205,9 @@ border: 0px solid #000000;
     display: flex;
     padding: 30px;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: 500;
 }
-    
+
 .text {
     display: flex;
     flex-direction: column;
