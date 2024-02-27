@@ -41,7 +41,7 @@ function PhotoSection() {
         width={300}
         height={200}
         alt="171x180"
-        src="https://collections.kerengo.ro/i/f/1446442/panzio-balea-to-13.webp"
+        src="https://balealac.ro/wp-content/uploads/2018/06/Balea-Lac-Cam-2-05-1800x1202.jpg"
       />
       <Figure.Image
         width={300}
@@ -59,7 +59,7 @@ function PhotoSection() {
         width={300}
         height={200}
         alt="171x180"
-        src="https://collections.kerengo.ro/i/f/1446431/panzio-balea-to-2.webp"
+        src="https://balealac.ro/wp-content/uploads/2018/06/Balea-Lac-Cam-2-01-1800x1202.jpg"
       />
     </Figure>
   );

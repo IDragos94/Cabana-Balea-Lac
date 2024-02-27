@@ -7,8 +7,9 @@ import SecoundSection from "./components/SecoundSection/SecoundSection";
 import LastSection from "./components/LastSection/LastSection";
 import Footer from "./components/Footer/Footer";
 
-import "./App.css";
 import { Button } from "react-bootstrap";
+
+import "./App.css";
 
 function App() {
   return (
