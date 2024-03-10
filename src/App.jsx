@@ -1,12 +1,13 @@
-import Header from "./components/Header/Header";
-import HousePhoto from "./components/HousePhoto/HousePhoto";
-import FirstSection from "./components/FirstSection/FirstSection";
-import SVGContent from "./components/SVGContent/SVGContent";
-import PhotoSection from "./components/Photo/PhotoSection";
-import SecoundSection from "./components/SecoundSection/SecoundSection";
-import LastSection from "./components/LastSection/LastSection";
-import Footer from "./components/Footer/Footer";
-
+import {
+  Header,
+  HousePhoto,
+  FirstSection,
+  SVGContent,
+  PhotoSection,
+  SecoundSection,
+  LastSection,
+  Footer,
+} from "./components";
 import { Button } from "react-bootstrap";
 
 import "./App.css";

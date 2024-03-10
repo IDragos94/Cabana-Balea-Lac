@@ -3,6 +3,54 @@
     --nav-txt: #585858;
     --button-background: #bcbcbc;
 }
+@media screen and (max-width: 1024px) {
+    .header-text{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-text h1{
+        font-size: 20px;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .nav-list button{
+        border-radius: 10px;
+        border: none;
+        text-decoration: solid;
+        
+    }
+    .HousePhoto{
+        width: 100vw;
+    }
+    .HousePhoto img {
+        width: 100%
+    }
+    
+    .first-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-section .text{
+        margin: 0px;
+    }
+    .svg {
+        flex-wrap: wrap; 
+    }
+    .secound-section {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .text h1, p {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .header-text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,38 +65,37 @@
 }
 
 .nav-list{
-    margin-right: 100px;
+    justify-content: flex-end;
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
 .nav-list button{
-    border-radius: 50px;
-    cursor: pointer;
+
+    border-radius:10px ;
     border: none;
+    background-color: var(--white);
+    cursor: pointer;
+    position: relative;
+    transition: 0.1s;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav-list button:hover{
-   background-color: var(--button-background);
-   border-radius: 72px 72px 72px 72px;
--moz-border-radius: 72px 72px 72px 72px;
--webkit-border-radius: 72px 72px 72px 72px;
-border: 0px solid #000000;
-
+.nav-list button:active {
+    transform: scale(0.9) rotate(3deg);
+    transition: 0,5s;
 }
 
 .HousePhoto {
     display: flex;
-    height: 75vh;
-    
+    height: 500px; 
 }
   
 .HousePhoto img {
     position: absolute;
-    width:100%;
-    height: 75vh;
+    width: 100%;
+    height: 500px;
 }
 
 .HousePhoto-text {
@@ -71,7 +118,7 @@ border: 0px solid #000000;
 
 .HousePhoto h4 {
     position: relative;
-    padding: 20px;
+    padding: 20px 20px 0 20px ;
     color: var(--white);
     font-family: Raleway Flex,Raleway-Fallback,sans-serif;
     font-weight: bold;
@@ -85,11 +132,11 @@ border: 0px solid #000000;
 }
     
 .first-section img{
-    padding-left: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
-    width:40%;
-    height: 40%;
-    flex-shrink: 0;
+    width: 350px;
+    height: 300px;
 }
     
 .first-section .text{
@@ -121,8 +168,9 @@ border: 0px solid #000000;
     padding: 20px 20px;
 }
 
-.svg svg {
-    height: 50px;
+.svg svg:hover{
+    transition: 0.3s;
+    height: 30px;
     width: 100px;
 }
 
@@ -177,9 +225,11 @@ border: 0px solid #000000;
 }
         
 .secound-section img{
-    padding-left: 40px;
-    width: 30%;
-    height: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 350px;
+    height: 300px;
 }
         
 .secound-section-text{  
@@ -205,18 +255,10 @@ border: 0px solid #000000;
 .text {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    padding-left: 40px;   
+    margin: 0px 40px 0px 40px;
+    padding-left: 0px;   
 }
         
-.text h1 {
-    display: flex;  
-}
-
-.text p {
-    display: flex;
-}
-
 .house-footer p{
     display: flex;
     background-color: rgb(189, 189, 241);
