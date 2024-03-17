@@ -1,4 +1,4 @@
-function FirstSection({ imageUrl, title, text }) {
+function FirstSection({}) {
   return (
     <div>
       <div className="first-section">

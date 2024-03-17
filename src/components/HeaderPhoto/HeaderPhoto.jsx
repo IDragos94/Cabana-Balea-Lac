@@ -1,4 +1,4 @@
-function HousePhoto({ imageUrl, title }) {
+function HeaderPhoto({}) {
   return (
     <div className="HousePhoto">
       <div>
@@ -15,4 +15,4 @@ function HousePhoto({ imageUrl, title }) {
   );
 }
 
-export default HousePhoto;
+export default HeaderPhoto;

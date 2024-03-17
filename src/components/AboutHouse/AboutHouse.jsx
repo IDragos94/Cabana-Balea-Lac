@@ -1,6 +1,6 @@
 import Figure from "react-bootstrap/Figure";
 
-function PhotoSection() {
+function AboutHouse() {
   return (
     <Figure>
       <Figure.Caption>
@@ -65,4 +65,4 @@ function PhotoSection() {
   );
 }
 
-export default PhotoSection;
+export default AboutHouse;
