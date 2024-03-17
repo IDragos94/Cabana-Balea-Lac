@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import FirstSectio from "./components/FirstSection/FirstSection";
 import SecoundSection from "./components/SecoundSection/SecoundSection";
 import LastSection from "./components/LastSection/LastSection";
@@ -8,6 +9,20 @@ import Footer from "./components/Footer/Footer";
 import HeaderNavbar from "./components/Navbar/Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+=======
+import {
+  Header,
+  HousePhoto,
+  FirstSection,
+  SVGContent,
+  PhotoSection,
+  SecoundSection,
+  LastSection,
+  Footer,
+} from "./components";
+import { Button } from "react-bootstrap";
+
+>>>>>>> 59f9d5ecd97d9237b51f933e53e3c72abacaf288
 import "./App.css";
 
 function App() {
