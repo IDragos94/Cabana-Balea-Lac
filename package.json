@@ -1,10 +1,6 @@
 {
   "name": "cabana-munte",
-<<<<<<< HEAD
-  "homepage": "https://github.com/IDragos94/Cabana-Balea-Lac",
-=======
   "homepage": "https://IDragos94.github.io/Cabana-Balea-Lac",
->>>>>>> 59f9d5ecd97d9237b51f933e53e3c72abacaf288
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,10 +42,7 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-=======
     "gh-pages": "^6.1.1",
->>>>>>> 59f9d5ecd97d9237b51f933e53e3c72abacaf288
     "react-router-dom": "^6.22.3"
   }
 }

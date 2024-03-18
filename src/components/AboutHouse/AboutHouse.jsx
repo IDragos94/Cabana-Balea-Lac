@@ -22,7 +22,7 @@ function AboutHouse() {
           </div>
         </div>
       </Figure.Caption>
-      <div className="house-3">
+      <div className="detailsText">
         <p>
           Toate camerele sunt echipate conform standardelor internaţionale, sunt
           dotate cu frigider, televizor, telefon. Mobilierul confecţionat din

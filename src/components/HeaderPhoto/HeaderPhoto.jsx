@@ -9,7 +9,6 @@ function HeaderPhoto({}) {
       </div>
       <div className="HousePhoto-text">
         <h4>Bucurați-vă de aerul proaspăt și relaxați-vă în natură</h4>
-        <h2>Cabana Bâlea Lac</h2>
       </div>
     </div>
   );
